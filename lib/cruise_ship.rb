@@ -7,7 +7,7 @@ suite_e: "Crumpet the Elf"
 }
 
 def select_winner(passengers)
-  passeners.each do |k,v|
+  passengers.each do |k,v|
     puts k
   end
 end
