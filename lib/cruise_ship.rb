@@ -10,7 +10,7 @@ suite_e: "Crumpet the Elf"
 
 def select_winner(passengers)
   passengers.each do |k,v|
-   puts v[1]
+    v[0] == "A"
   end
 end
 
