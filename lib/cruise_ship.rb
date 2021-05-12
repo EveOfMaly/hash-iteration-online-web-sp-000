@@ -11,3 +11,5 @@ def select_winner(passengers)
     puts k
   end
 end
+
+select_winner(passengers)
