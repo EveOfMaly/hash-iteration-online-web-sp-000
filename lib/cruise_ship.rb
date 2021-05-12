@@ -18,4 +18,4 @@ def select_winner(passengers)
   winner
 end
 
-pselect_winner(passengers)
+select_winner(passengers)
