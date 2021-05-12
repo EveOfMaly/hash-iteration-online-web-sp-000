@@ -9,6 +9,7 @@ suite_e: "Crumpet the Elf"
 # The criteria for picking the winner is that this person must be staying in Suite A and their name must start with the letter "A".
 
 def select_winner(passengers)
+  winner = ""
   passengers.each do |suite, name|
     if suite == :suite_a && name.start_with?("A")
       winner = name
