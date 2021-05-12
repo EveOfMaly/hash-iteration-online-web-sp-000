@@ -18,4 +18,6 @@ def select_winner(passengers)
   winner
 end
 
+# Our job is to write a method that operates on a hash of birthday kids and wishes them a happy birthday. We'll be coding our method in the
+
 select_winner(passengers)
